@@ -39,7 +39,15 @@ jobs:
           $InformationPreference = "Continue"
           $ErrorActionPreference = "Stop"
 
+<<<<<<< HEAD
           Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
           Install-Module PSScriptAnalyzer -Scope CurrentUser
           Import-Module PSScriptAnalyzer
           Invoke-ScriptAnalyzer -IncludeDefaultRules -Recurse -EnableExit .
+=======
+      - name: "Super Linter"
+        uses: github/super-linter@v4.5.0
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+>>>>>>> b22a8eb8c727eaf67567a69f28c4fb07d184260c
