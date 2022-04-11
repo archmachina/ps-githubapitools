@@ -1,8 +1,8 @@
-# Module manifest for Noveris.GitHubApi
+# Module manifest for GitHubApiTools
 
 @{
     # Script module or binary module file associated with this manifest.
-    RootModule = 'Noveris.GitHubApi.psm1'
+    RootModule = 'GitHubApiTools.psm1'
 
     # Version number of this module.
     ModuleVersion = '__FULLVERSION__'
@@ -14,19 +14,19 @@
     )
 
     # ID used to uniquely identify this module
-    GUID = '6b624342-f93e-4cbd-93a9-f8c64b22c8fa'
+    GUID = '67a7601f-6420-45f0-8723-e94ed15869be'
 
     # Author of this module
-    Author = 'Noveris Pty Ltd'
+    Author = 'Jesse Reichman'
 
     # Company or vendor of this module
-    CompanyName = 'Noveris Pty Ltd'
+    CompanyName = 'ArchMachina'
 
     # Copyright statement for this module
-    Copyright = '(c) 2019 Noveris Pty Ltd. All rights reserved.'
+    Copyright = '(c) 2020 Jesse Reichman. All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description = 'Trello Api module'
+    Description = 'GitHub Api Tools'
 
     # Minimum version of the Windows PowerShell engine required by this module
     PowerShellVersion = '5.1'
@@ -65,7 +65,7 @@
 
     # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
     NestedModules = @(
-        'Noveris.GitHubApi.psm1'
+        'GitHubApiTools.psm1'
     )
 
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
@@ -90,7 +90,7 @@
 
     # List of all modules packaged with this module
     #ModuleList = @(
-    #    'Noveris.GitHubApi.psm1'
+    #    'GitHubApiTools.psm1'
     #)
 
     # List of all files packaged with this module
@@ -108,10 +108,10 @@
             )
 
             # A URL to the license for this module.
-            LicenseUri = 'https://github.com/noveris-inf/ps-githubapi/blob/main/LICENSE'
+            LicenseUri = 'https://github.com/archmachina/ps-githubapitools/blob/main/LICENSE'
 
             # A URL to the main website for this project.
-            ProjectUri = 'https://github.com/noveris-inf/ps-githubapi'
+            ProjectUri = 'https://github.com/archmachina/ps-githubapitools'
 
             # A URL to an icon representing this module.
             # IconUri = ''
